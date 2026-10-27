@@ -1,0 +1,99 @@
+# Table of contents
+
+format: jb-book
+root: index.md
+chapters:
+  - file: notebooks/01/01.md
+    sections:
+      - file: notebooks/01/tut_1_1.ipynb
+      - file: notebooks/01/tut_1_2.ipynb
+      - file: notebooks/01/tut_1_3.ipynb
+      - file: notebooks/01/tut_1_4.ipynb
+      - file: notebooks/01/tut_1_5.ipynb
+      - file: notebooks/01/tut_1_6.ipynb
+      - file: notebooks/01/1_exercises.ipynb
+
+  - file: notebooks/02/02.md
+    sections:
+      - file: notebooks/02/2_1_a_linear_program_for_the_diet_problem.ipynb
+      - file: notebooks/02/2_2_an_AMPL_model_for_the_diet_problem.ipynb
+      - file: notebooks/02/2_3_using_the_AMPL_diet_model.ipynb
+      - file: notebooks/02/2_4_generalizations_to_blending_economics_and_scheduling.ipynb
+      - file: notebooks/02/2_exercises.ipynb
+
+  - file: notebooks/03/03.md
+    sections:
+      - file: notebooks/03/3_1_a_linear_program_for_the_transportation_problem.ipynb
+      - file: notebooks/03/3_2_an_AMPL_model_for_the_transportation_problem.ipynb
+      - file: notebooks/03/3_3_other_interpretations_of_the_transportation_model.ipynb
+      - file: notebooks/03/3_exercises.ipynb
+
+  - file: notebooks/04/04.md
+    sections:
+      - file: notebooks/04/4_1_a_multicommodity_transportation_model.ipynb
+      - file: notebooks/04/4_2_a_multiperiod_production_model.ipynb
+      - file: notebooks/04/4_3_a_model_of_production_and_transportation.ipynb
+      - file: notebooks/04/4_exercises.ipynb
+
+  - file: notebooks/05/05.md
+    sections:
+      - file: notebooks/05/5_1_unordered_sets.ipynb
+      - file: notebooks/05/5_2_sets_of_numbers.ipynb
+      - file: notebooks/05/5_3_set_operations.ipynb
+      - file: notebooks/05/5_4_set_membership_operations_and_functions.ipynb
+      - file: notebooks/05/5_5_indexing_expressions.ipynb
+      - file: notebooks/05/5_6_ordered_sets.ipynb
+      - file: notebooks/05/5_exercises.ipynb
+
+  - file: notebooks/06/06.md
+    sections:
+      - file: notebooks/06/6_1_sets_of_ordered_pairs.ipynb
+      - file: notebooks/06/6_2_subsets_and_slices_of_ordered_pairs.ipynb
+      - file: notebooks/06/6_3_sets_of_longer_tuples.ipynb
+      - file: notebooks/06/6_4_operations_on_sets_of_tuples.ipynb
+      - file: notebooks/06/6_5_indexed_collections_of_sets.ipynb
+      - file: notebooks/06/6_exercises.ipynb
+
+  - file: notebooks/07/07.md
+    sections:
+      - file: notebooks/07/7_1_parameter_declarations.ipynb
+      - file: notebooks/07/7_2_arithmetic_expressions.ipynb
+      - file: notebooks/07/7_3_logical_and_conditional_expressions.ipynb
+      - file: notebooks/07/7_4_restrictions_on_parameters.ipynb
+      - file: notebooks/07/7_5_computed_parameters.ipynb
+      - file: notebooks/07/7_6_randomly_generated_parameters.ipynb
+      - file: notebooks/07/7_7_logical_parameters.ipynb
+      - file: notebooks/07/7_8_symbolic_parameters.ipynb
+      - file: notebooks/07/7_exercises.ipynb
+
+  - file: notebooks/08/08.md
+    sections:
+      - file: notebooks/08/8_1_variables.ipynb
+      - file: notebooks/08/8_2_linear_expressions.ipynb
+      - file: notebooks/08/8_3_objectives.ipynb
+      - file: notebooks/08/8_4_constraints.ipynb
+      - file: notebooks/08/8_exercises.ipynb
+
+  - file: notebooks/09/09.md
+    sections:
+      - file: notebooks/09/9_1_simple_data.ipynb
+      - file: notebooks/09/9_2_data_in_dicts.ipynb
+      - file: notebooks/09/9_3_data_composite.ipynb
+      - file: notebooks/09/9_4_data_in_pandas.ipynb
+      - file: notebooks/09/9_5_data_in_numpy.ipynb
+      - file: notebooks/09/9_6_data_in_polars.ipynb
+      - file: notebooks/09/9_7_data_in_external.ipynb
+
+  - file: notebooks/10/10.md
+    sections:
+      - file: notebooks/10/10_1_general_principles_of_commands_and_options.ipynb
+      - file: notebooks/10/10_2_setting_up_and_solving_models_and_data.ipynb
+      - file: notebooks/10/10_3_modifying_data.ipynb
+      - file: notebooks/10/10_4_modifying_models.ipynb
+      - file: notebooks/10/10_5_running_scripts.ipynb
+      - file: notebooks/10/10_6_iterating_over_a_set_the_for_statement.ipynb
+      - file: notebooks/10/10_7_conditions_and_loop_control.ipynb
+      - file: notebooks/10/10_8_manipulating_character_strings.ipynb
+
+  - file: genindex.md
+
